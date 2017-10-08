@@ -1,7 +1,7 @@
 package com.example.xyzreader.ui;
 
 /**
- * Created by abmitra on 8/9/2015.
+ * Created by kundank on 08/10/17.
  */
 import android.content.Context;
 import android.support.v7.widget.AppCompatImageView;
