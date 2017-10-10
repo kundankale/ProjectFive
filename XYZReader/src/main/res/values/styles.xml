@@ -25,6 +25,7 @@
         <item name="android:textColor">@color/abc_primary_text_material_dark</item>
         <item name="android:subtitleTextStyle">@color/subtitle</item>
         <item name="windowActionBarOverlay">false</item>
+
     </style>
     <style name="Theme.Bacon.TranslucentActionBar">
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
