@@ -11,7 +11,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -103,7 +103,7 @@ public class ArticleDetailFragment extends Fragment implements
                              Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
-        ActionBarActivity activity =(ActionBarActivity) getActivity();
+        AppCompatActivity activity =(AppCompatActivity) getActivity();
         mStatusBarColorDrawable = new ColorDrawable(0);
         Toolbar t = (Toolbar)mRootView.findViewById(R.id.toolbar1);
         activity.setSupportActionBar(t);
@@ -174,7 +174,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
-                                ActionBarActivity activity =(ActionBarActivity) getActivity();
+
 
                             }
                         }
